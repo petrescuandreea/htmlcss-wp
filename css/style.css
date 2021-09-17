@@ -26,11 +26,32 @@ body {
 }
 
 /* header */
-header {
+/* header {
     /* debug rules */
-    height: 100px;
+    /* height: 100px;
     background-color: rgb(228, 97, 233);
+} */
+
+#logo {
+    border-right: 2px solid rgb(216, 216, 216);
+    padding-right: 40px;
 }
+
+nav {
+    margin: 50px 0;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: rgb(156, 149, 149);
+    text-decoration: none;
+}
+
 
 /* jumbotron */
 #jumbotron {
