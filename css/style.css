@@ -109,6 +109,7 @@ a {
 
 .text {
     margin-top: 5px;
+    /* color:rgb(156, 149, 149) */
 }
 
 
@@ -124,7 +125,12 @@ a {
 /* footer */
 footer {
     margin-top: 5px;
+    text-align: center;
     /* debug rules */
-    height: 50px;
-    background-color: blueviolet;
+    /* height: 50px;
+    background-color: blueviolet; */
+}
+#red_heart {
+    color: red;
+    font-size: 35px;
 }
