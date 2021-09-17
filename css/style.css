@@ -1,4 +1,6 @@
 /* general settings */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -70,8 +72,12 @@ a {
 #jumbotron_text {
     width: 45%;
     padding-left: 40px;
-    padding-top: 300px;
+    padding-top: 250px;
     color: white;
+}
+
+#jumbotron_text > p {
+    font-size: 15px;
 }
 
 /* main part */
@@ -93,16 +99,25 @@ a {
     width: 15%;
     float: left;
     /* debug rules */
-    height: 450px;
+    /* height: 450px; */
     background-color: rgb(0, 174, 255);
 }
+
+.side_text, .section_text {
+    font-size: 18px;
+}
+
+.text {
+    margin-top: 5px;
+}
+
 
 #section1 {
     width: 68%;
     float: left;
     margin: 0 1%;
     /* debug rules */
-    height: 450px;
+    /* height: 450px; */
     background-color: rgb(0, 174, 255);
 }
 
