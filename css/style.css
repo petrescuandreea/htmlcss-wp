@@ -64,16 +64,21 @@ a:hover {
     padding-top: 280px;
 }
 
+#jumbotron , .side_image , .section_image{
+    background-color: rgba(0,0,0,0.30);
+    background-blend-mode: hue;
+}
+
 #jumbotron_text {
-    width: 45%;
+    width: 55%;
     max-height: 150px;
     padding-left: 40px;
     color: white;
 }
 
 #jumbotron_text > p {
+    max-height: 95%;
     font-size: 15px;
-    
 }
 
 /* main part */
@@ -110,6 +115,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 
 #section_photo {
