@@ -1,0 +1,77 @@
+/* general settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix {
+    background-color: rgb(0, 68, 255);
+    padding-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* header */
+header {
+    /* debug rules */
+    height: 100px;
+    background-color: rgb(228, 97, 233);
+}
+
+/* jumbotron */
+#jumbotron {
+    margin: 30px 0;
+    /* debug rules */
+    height: 320px;
+    background-color: rgb(236, 247, 144);
+}
+
+/* main part */
+/* title */
+.content_title {
+    margin-bottom: 20px;
+    /* debug rules */
+    height: 50px;
+    background-color: rgb(0, 174, 255);
+}
+
+/* content */
+/* aside */
+.side_content {
+    width: 15%;
+    float: left;
+    /* debug rules */
+    height: 450px;
+    background-color: rgb(0, 174, 255);
+}
+
+#section1 {
+    width: 68%;
+    float: left;
+    margin: 0 1%;
+    /* debug rules */
+    height: 450px;
+    background-color: rgb(0, 174, 255);
+}
+
+/* footer */
+footer {
+    margin-top: 5px;
+    /* debug rules */
+    height: 50px;
+    background-color: blueviolet;
+}
