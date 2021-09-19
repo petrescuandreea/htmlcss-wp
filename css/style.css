@@ -1,6 +1,5 @@
 /* general settings */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +9,7 @@
 body {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
 }
 
 #container {
@@ -49,6 +49,7 @@ a {
 
 a:hover {
     color:black;
+    font-weight: 500;
     text-decoration: underline;
 }
 
@@ -98,11 +99,6 @@ a:hover {
     float: left;
 }
 
-.text {
-    color:rgb(156, 149, 149);
-    margin-top: 10px;
-}
-
 .side_image, .section_image{
     width: 100%;
     height: 190px;
@@ -116,6 +112,25 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     
+}
+
+.side_text, .section_text {
+    font-size: 18px;
+}
+
+.subheading {
+    font-weight: 500;
+}
+
+.text {
+    color:rgb(156, 149, 149);
+    margin-top: 10px;
+}
+
+#section1 {
+    width: 68%;
+    float: left;
+    margin: 0 1%;
 }
 
 #section_photo {
@@ -132,16 +147,7 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-.side_text, .section_text {
-    font-size: 18px;
-}
 
-
-#section1 {
-    width: 68%;
-    float: left;
-    margin: 0 1%;
-}
 
 /* footer */
 footer {
