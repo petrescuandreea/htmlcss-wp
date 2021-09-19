@@ -72,7 +72,6 @@ a:hover {
 
 #jumbotron_text {
     width: 55%;
-    max-height: 150px;
     padding-left: 40px;
     color: white;
 }
@@ -92,6 +91,7 @@ a:hover {
     color:rgb(156, 149, 149);
 }
 
+
 /* content */
 /* aside */
 .side_content {
@@ -110,8 +110,6 @@ a:hover {
     background-image: url("../img/img-1.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    
 }
 
 .side_text, .section_text {
@@ -144,7 +142,6 @@ a:hover {
     background-image: url("../img/img-3.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 
