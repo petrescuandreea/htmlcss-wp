@@ -77,7 +77,7 @@ a:hover {
 }
 
 #jumbotron_text > p {
-    max-height: 95%;
+    width: 95%;
     font-size: 15px;
 }
 
@@ -120,7 +120,7 @@ a:hover {
 
 #section_photo {
     background-image: url("../img/banner-2.jpg");
-    background-size: cover;
+    background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
 }
